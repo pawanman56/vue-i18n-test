@@ -1,4 +1,5 @@
 {
   "goodbye": "नमस्ते",
-  "hello": "नमस्ते"
+  "hello": "नमस्ते {name}",
+  "email": "मेरो ई-मेल: {email}"
 }
