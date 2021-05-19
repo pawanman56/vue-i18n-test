@@ -2,6 +2,7 @@
 <div>
   <p>{{ $t('hello') }}</p>
   <p>{{ $t('message') }}</p>
+  <p>{{ $t('goodbye') }}</p>
 </div>
 </template>
 
