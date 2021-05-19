@@ -18,6 +18,7 @@ export default defineComponent({
   methods: {
     setLocale (locale) {
       this.$i18n.locale = locale;
+      localStorage.setItem('locale', locale);
     }
   }
 })

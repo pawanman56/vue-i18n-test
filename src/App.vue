@@ -8,8 +8,15 @@ import HelloI18n from './components/HelloI18n'
 
 export default {
   name: 'App',
+
   components: {
     HelloI18n
+  },
+
+  created () {
+    const locale = localStorage.getItem('locale');
+
+    if (locale) this.$i18n.locale = locale;
   }
 }
 </script>
@@ -39,5 +46,9 @@ export default {
   border-radius: 0.2rem;
   margin-left: 0.25rem;
   margin-right: 0.25rem;
+}
+
+.btn:hover {
+  cursor: pointer;
 }
 </style>
